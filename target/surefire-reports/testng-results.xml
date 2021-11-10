@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60473" started-at="2021-11-10T14:04:17Z" finished-at="2021-11-10T14:05:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="60473" started-at="2021-11-10T14:04:17Z" finished-at="2021-11-10T14:05:17Z">
+      <class name="Testcase.TC003Creatingaccount">
+        <test-method status="PASS" signature="AccountCreation()[pri:0, instance:Testcase.TC003Creatingaccount@4e04a765]" name="AccountCreation" duration-ms="25918" started-at="2021-11-10T14:04:17Z" finished-at="2021-11-10T14:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountCreation -->
+      </class> <!-- Testcase.TC003Creatingaccount -->
+      <class name="Testcase.TC001Landing">
+        <test-method status="PASS" signature="Homepage()[pri:0, instance:Testcase.TC001Landing@783e6358]" name="Homepage" duration-ms="14953" started-at="2021-11-10T14:04:43Z" finished-at="2021-11-10T14:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+      </class> <!-- Testcase.TC001Landing -->
+      <class name="Testcase.TC002SignIn">
+        <test-method status="PASS" signature="singin()[pri:0, instance:Testcase.TC002SignIn@17550481]" name="singin" duration-ms="19555" started-at="2021-11-10T14:04:58Z" finished-at="2021-11-10T14:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singin -->
+      </class> <!-- Testcase.TC002SignIn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
