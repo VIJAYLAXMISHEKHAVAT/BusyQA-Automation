@@ -13,12 +13,8 @@ public class CreatingaccountPageO extends DriverInitialization {
 		this.driver = driver;
 	}
 
-	By accountbtn = By.cssSelector("div.customer-icon.customer-menu-toggle");	
-	By creataccount = By.cssSelector("body.cms-home.page-layout-1column.cms-index-index.page-layout-cms-full"
-			+ "-width.document-loaded:nth-child(2) div.off-canvas-header:nth-child(9) header.page-header "
-			+ "div.header.wrapper:nth-child(2) div.header.content li.customer-welcome.active div.customer-menu-wrapper"
-			+ " div.customer-menu-header ul.customer-menu-item-wrapper.actions "
-			+ "li.customer-menu-item:nth-child(2) > a.action.register");
+	By accountbtn = By.cssSelector("li.customer-welcome");			
+	By creataccount = By.xpath("//header/div[1]/div[1]/li[1]/div[2]/div[1]/ul[1]/li[2]/a[1]");
 	By click =  By.cssSelector("from.needsclick.klaviyo-form.klaviyo-form-version-cid_1.kl-private-reset-css-Xuajs1");
 	By fname = By.id("firstname");
 	By lname = By.id("lastname");
@@ -28,9 +24,11 @@ public class CreatingaccountPageO extends DriverInitialization {
 	By submitbtn = By.cssSelector("button.action.submit.primary");
 	
 	
-	public WebElement Accountbutton() {
-		return driver.findElement(accountbtn);
-			}
+	
+
+	  public WebElement Accountbutton() {		  
+		  return driver.findElement(accountbtn); }
+	 
 	
 	public WebElement Creatingact() {
 		return driver.findElement(creataccount);
@@ -61,5 +59,6 @@ public class CreatingaccountPageO extends DriverInitialization {
 	public WebElement submit() {
 		return driver.findElement(submitbtn);
 	}
-
-}
+	
+	
+	}

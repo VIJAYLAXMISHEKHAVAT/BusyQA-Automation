@@ -12,9 +12,7 @@ public class Signinpageobj extends DriverInitialization {
 	public Signinpageobj(WebDriver driver) {
 		this.driver = driver;
 	}
-
-	By signbtn = By.cssSelector(
-			"body.cms-home.page-layout-1column.cms-index-index.page-layout-cms-full-width.document-loaded:nth-child(2) div.off-canvas-header:nth-child(9) header.page-header div.header.wrapper:nth-child(2) div.header.content li.customer-welcome.active div.customer-menu-wrapper div.customer-menu-header ul.customer-menu-item-wrapper.actions > li.customer-menu-item:nth-child(1)");
+	By signbtn = By.xpath("//header/div[1]/div[1]/li[1]/div[2]/div[1]/ul[1]/li[1]/a[1]");	
 	By email = By.id("email");
 	By passwd = By.id("pass");
 	By Submit = By.cssSelector("button#send2.action.login.primary");

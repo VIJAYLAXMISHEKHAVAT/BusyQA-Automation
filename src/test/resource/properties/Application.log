@@ -1,0 +1,10 @@
+15/11/2021 08:36:01 qaLogger chromeBrowserName is chrome 
+15/11/2021 08:36:06 qaLogger Loading url
+15/11/2021 08:36:08 qaLogger Clicked on button
+15/11/2021 08:36:12 qaLogger Clicked on Create account button
+15/11/2021 08:36:15 qaLogger Entered First Name
+15/11/2021 08:36:16 qaLogger Entered Last Name
+15/11/2021 08:36:16 qaLogger Entered email 
+15/11/2021 08:36:16 qaLogger Entered Password
+15/11/2021 08:36:16 qaLogger Entered Confirm Password
+15/11/2021 08:36:17 qaLogger Clicked on Submit button

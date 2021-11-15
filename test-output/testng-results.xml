@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12489" started-at="2021-11-09T17:10:17Z" finished-at="2021-11-09T17:10:30Z">
+  <suite name="Default suite" duration-ms="9846" started-at="2021-11-15T13:36:07Z" finished-at="2021-11-15T13:36:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12489" started-at="2021-11-09T17:10:17Z" finished-at="2021-11-09T17:10:30Z">
-      <class name="Testcase.TC001Landing">
-        <test-method status="PASS" signature="Homepage()[pri:0, instance:Testcase.TC001Landing@457e2f02]" name="Homepage" duration-ms="12444" started-at="2021-11-09T17:10:17Z" finished-at="2021-11-09T17:10:30Z">
+    <test name="Default test" duration-ms="9846" started-at="2021-11-15T13:36:07Z" finished-at="2021-11-15T13:36:17Z">
+      <class name="Testcase.TC002Creatingaccount">
+        <test-method status="PASS" signature="WebdriverInit()[pri:0, instance:Testcase.TC002Creatingaccount@3e9b1010]" name="WebdriverInit" is-config="true" duration-ms="5562" started-at="2021-11-15T13:36:01Z" finished-at="2021-11-15T13:36:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Homepage -->
-      </class> <!-- Testcase.TC001Landing -->
+        </test-method> <!-- WebdriverInit -->
+        <test-method status="PASS" signature="AccountCreation()[pri:0, instance:Testcase.TC002Creatingaccount@3e9b1010]" name="AccountCreation" duration-ms="9804" started-at="2021-11-15T13:36:07Z" finished-at="2021-11-15T13:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountCreation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcase.TC002Creatingaccount@3e9b1010]" name="tearDown" is-config="true" duration-ms="852" started-at="2021-11-15T13:36:17Z" finished-at="2021-11-15T13:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase.TC002Creatingaccount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

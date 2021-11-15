@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcase.TC002">
+      <class name="Testcase.TC004Logout">
         <methods>
-          <include name="singin"/>
+          <include name="WebdriverInit"/>
+          <include name="tearDown"/>
+          <include name="Loggingout"/>
         </methods>
-      </class> <!-- Testcase.TC002 -->
+      </class> <!-- Testcase.TC004Logout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

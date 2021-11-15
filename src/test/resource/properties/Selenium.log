@@ -1,0 +1,10 @@
+08:36:01,982  INFO qaLogger:31 - chromeBrowserName is chrome 
+08:36:06,869  INFO qaLogger:41 - Loading url
+08:36:08,298  INFO qaLogger:16 - Clicked on button
+08:36:12,409  INFO qaLogger:18 - Clicked on Create account button
+08:36:15,869  INFO qaLogger:20 - Entered First Name
+08:36:16,083  INFO qaLogger:22 - Entered Last Name
+08:36:16,368  INFO qaLogger:24 - Entered email 
+08:36:16,679  INFO qaLogger:26 - Entered Password
+08:36:16,888  INFO qaLogger:28 - Entered Confirm Password
+08:36:17,363  INFO qaLogger:30 - Clicked on Submit button
